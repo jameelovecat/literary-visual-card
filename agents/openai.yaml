@@ -1,0 +1,6 @@
+interface:
+  display_name: "Literary Visual Card Skill"
+  short_description: "将诗歌、书摘、金句与文学片段制作成四种固定风格的视觉卡片"
+  default_prompt: "Use $literary-visual-card to select the strongest excerpt, choose a suitable visual style, and create a finished literary text card."
+policy:
+  allow_implicit_invocation: true
