@@ -1,85 +1,84 @@
 # Literary Visual Card Skill
 
-把诗歌、书摘、金句、散文片段和原创短文，变成让人愿意停下来读一眼的 `4:5` 文学视觉卡。
+有些文字不需要被解释，只需要一个让人停下来的画面。
 
-它不只是“给文字配一张漂亮图片”。技能会先阅读完整原文，选择一段能够独立传播的摘抄，再分别提取两层意向：整篇文字决定画面的世界、情绪与矛盾，摘取的金句决定一个能钉住视线的视觉焦点。确认意向后，再进入四套稳定的视觉系统。
+Literary Visual Card 把诗歌、书摘、金句、散文片段和原创短文制作成可分享的 `4:5` 文学视觉卡。你只需交出文字；技能会帮你挑选最有传播力的原文片段、确认画面意向、选择视觉风格，并完成排版与检查。
 
-原句、标点和诗歌分行会被完整保留。图像与文字分离生成，最终由内置排版器确定性合成，因此换摘抄、改署名或微调文字时，不必重新生成背景。
+它不会擅自润色你的句子，也不会用一堆象征物把文字解释得太满。
 
 ## 四种视觉风格
 
-| 时光蜡笔 | 电影诗影 |
+四种风格共用同一套标题、正文和署名排版，但会用不同的视觉语言理解文字。
+
+| 时光蜡笔 ·《山脚之下》 | 电影诗影 ·《不懂》 |
 | --- | --- |
-| [![时光蜡笔](examples/time-crayon.jpg)](examples/time-crayon.jpg) | [![电影诗影](examples/cinematic-poetry.jpg)](examples/cinematic-poetry.jpg) |
-| 成人重新学习表达时画出的笨拙儿童画，叠加真实窗光、树影和钴蓝折射。 | 真实摄影、深蓝暖金光影和胶片颗粒，克制、朦胧而成熟。 |
+| [![时光蜡笔《山脚之下》](examples/foothill-crayon.jpg)](examples/foothill-crayon.jpg) | [![电影诗影《不懂》](examples/not-understand-cinematic.jpg)](examples/not-understand-cinematic.jpg) |
+| 成人世界被重新画成一幅笨拙的儿童画：蜡笔、炭笔、真实窗光，以及一点重新开始的勇气。 | 真实摄影、深蓝暖金光影与胶片颗粒，让关系、距离和记忆停留在半梦半醒之间。 |
 
-| 旧梦丝网 | 梵高油画 |
+| 旧梦丝网 ·《家族列车》 | 梵高油画 ·《不是少数》 |
 | --- | --- |
-| [![旧梦丝网](examples/vintage-screenprint.jpg)](examples/vintage-screenprint.jpg) | [![梵高油画](examples/van-gogh-oil.jpg)](examples/van-gogh-oil.jpg) |
-| 三色实体丝网印刷质感，以大面积浓色和小面积互补色制造张力。 | 富有节奏的厚涂笔触与强化的自然色彩，明亮中带着忧伤。 |
+| [![旧梦丝网《家族列车》](examples/family-train-screenprint.jpg)](examples/family-train-screenprint.jpg) | [![梵高油画《不是少数》](examples/not-minority-oil.jpg)](examples/not-minority-oil.jpg) |
+| 现代平面构图遇上粗粝丝网印刷：有限色彩、简洁线条、纸张纤维和略带荒诞的日常物件。 | 有节奏的厚涂笔触和被情绪强化的自然色彩，适合孤独、生命力与明亮的忧伤。 |
 
-## 使用方式
+以上四张均由本 Skill 的完整流程生成，并保留作者署名「Jamee 加米」。
 
-把文字和可选信息交给 Codex，并调用：
+## 你需要提供什么
+
+最简单的输入只有一段文字：
 
 ```text
 $literary-visual-card
+
+请把下面这段文字制作成视觉卡：
+……
 ```
 
-你可以指定风格：
+作者、书名和出处都是可选信息。只有你明确提供或要求显示时，卡片才会加入这些内容；无法确认的出处会直接省略，不会出现“出处待考”之类的占位符。
+
+你也可以提前指定风格：
 
 ```text
 用电影诗影制作这段文字。
 ```
 
-也可以让技能直接判断：
+或者把选择完全交给技能：
 
 ```text
-直接做，帮我选择最适合的风格。
+直接做，帮我选择最适合的摘抄、意向和风格。
 ```
 
-默认流程很短：
+## 它会怎样与你协作
 
-1. 技能给出「摘取金句＋画面意向」，由用户一次确认。
-2. 意向确认后，用户从四种风格中选择一种。
-3. 技能直接生成背景、渲染文字并检查成品。
+默认只有一次内容确认和一次风格选择：
 
-如果用户已经指定风格，就不会重复询问。用户说“直接做”“你来选”或“不用确认”时，技能会自行完成选择并继续生成。
+1. 技能阅读完整原文，给出「摘取金句＋画面意向」。整篇文字决定画面的世界、情绪和矛盾；被摘取的金句决定一个能钉住视线的视觉焦点。
+2. 你确认意向后，从时光蜡笔、电影诗影、旧梦丝网和梵高油画中选择一种。
+3. 技能生成无字背景，再用固定排版器加入标题、摘抄和可选署名，最后检查尺寸、原文准确性与可读性。
 
-## 内容规则
+如果你已经指定风格，第二步不会重复询问。说“直接做”“你来选”或“不用确认”，即可让技能自行完成选择并直接交付。
 
-- 摘抄保持原文，不改写、不润色、不拼接不相邻句子。
-- 没有标题时默认使用无标题版式，不擅自创造标题。
-- 只有用户明确提供作者、书名或出处时才显示署名信息。
-- 无法确认的出处直接省略，不显示占位符。
+## 它会认真守住什么
+
+- 摘抄必须来自一段连续原文，不改写、不润色，也不拼接不相邻的句子。
+- 诗歌保留原有分行、标点和段落；散文只做视觉换行，不改变措辞。
+- 没有标题时使用无标题版式，不擅自创造一个像原作标题的标题。
+- 没有作者或出处时直接留白，不推测、不杜撰，也不默认写上 Jamee。
 - 默认不添加 `Visual: ChatGPT`、AI 标签、水印或创作者签名。
+- 只有气氛、没有视觉抓力的背景不算完成；文字看不清的卡片也不会交付。
 
-## 实跑画廊
+## 输出
 
-下面的作品来自同一套 Skill 实际生成流程，而不是单独制作的视觉概念稿。
-
-| 《家族列车》· 旧梦丝网 | 《事情发生》· 电影诗影 |
-| --- | --- |
-| [![家族列车](examples/family-train-screenprint.jpg)](examples/family-train-screenprint.jpg) | [![事情发生](examples/things-happen-cinematic.jpg)](examples/things-happen-cinematic.jpg) |
-
-| 《不懂》· 电影诗影 | 《不是少数》· 梵高油画 |
-| --- | --- |
-| [![不懂](examples/not-understand-cinematic.jpg)](examples/not-understand-cinematic.jpg) | [![不是少数](examples/not-minority-oil.jpg)](examples/not-minority-oil.jpg) |
-
-## 输出规范
-
-- 画布：`1600 × 2000 px`，竖版 `4:5`。
-- 中文字体：Source Han Serif SC Regular。
-- 拉丁字体：Source Serif 4 Regular。
-- 文字、署名和图像背景分别保存，方便后续调整。
-- 最终输出为 PNG。
+- `1600 × 2000 px`，竖版 `4:5` PNG。
+- 中文使用 Source Han Serif SC Regular，拉丁字符使用 Source Serif 4 Regular。
+- 无字背景、排版 JSON 和最终成品分别保存，方便只改文字而不重新出图。
+- 标题、正文、署名与图片背景经过完整可读性检查。
 
 ## 安装
 
-把仓库克隆到个人 Skills 目录：
+将仓库克隆到个人 Skills 目录：
 
 ```bash
-git clone <repository-url> ~/.agents/skills/literary-visual-card
+git clone https://github.com/jameelovecat/literary-visual-card.git ~/.agents/skills/literary-visual-card
 ```
 
 排版器使用 Python 3 和 Pillow。如果当前环境尚未安装 Pillow：
@@ -102,8 +101,6 @@ literary-visual-card/
 ├── references/
 └── scripts/render_card.py
 ```
-
-字体文件随各自的 SIL Open Font License 一并分发，许可证文件位于 `assets/fonts/`。
 
 ## License
 
