@@ -20,8 +20,6 @@ Literary Visual Card 把诗歌、书摘、金句、散文片段和原创短文�
 | [![旧梦丝网《家族列车》](examples/family-train-screenprint.jpg)](examples/family-train-screenprint.jpg) | [![梵高油画《凌晨谋杀一只蟑螂》](examples/cockroach-oil.jpg)](examples/cockroach-oil.jpg) |
 | 现代平面构图遇上粗粝丝网印刷：有限色彩、简洁线条、纸张纤维和略带荒诞的日常物件。 | 有节奏的厚涂笔触和被情绪强化的自然色彩，适合孤独、生命力与明亮的忧伤。 |
 
-以上四张均由本 Skill 的完整流程生成，并保留作者署名「Jamee 加米」。
-
 ## 你需要提供什么
 
 最简单的输入只有一段文字：
