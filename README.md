@@ -15,9 +15,9 @@ Literary Visual Card 把诗歌、书摘、金句、散文片段和原创短文�
 | [![时光蜡笔《山脚之下》](examples/foothill-crayon.jpg)](examples/foothill-crayon.jpg) | [![电影诗影《不懂》](examples/not-understand-cinematic.jpg)](examples/not-understand-cinematic.jpg) |
 | 成人世界被重新画成一幅笨拙的儿童画：蜡笔、炭笔、真实窗光，以及一点重新开始的勇气。 | 真实摄影、深蓝暖金光影与胶片颗粒，让关系、距离和记忆停留在半梦半醒之间。 |
 
-| 旧梦丝网 ·《家族列车》 | 梵高油画 ·《不是少数》 |
+| 旧梦丝网 ·《家族列车》 | 梵高油画 ·《凌晨谋杀一只蟑螂》 |
 | --- | --- |
-| [![旧梦丝网《家族列车》](examples/family-train-screenprint.jpg)](examples/family-train-screenprint.jpg) | [![梵高油画《不是少数》](examples/not-minority-oil.jpg)](examples/not-minority-oil.jpg) |
+| [![旧梦丝网《家族列车》](examples/family-train-screenprint.jpg)](examples/family-train-screenprint.jpg) | [![梵高油画《凌晨谋杀一只蟑螂》](examples/cockroach-oil.jpg)](examples/cockroach-oil.jpg) |
 | 现代平面构图遇上粗粝丝网印刷：有限色彩、简洁线条、纸张纤维和略带荒诞的日常物件。 | 有节奏的厚涂笔触和被情绪强化的自然色彩，适合孤独、生命力与明亮的忧伤。 |
 
 以上四张均由本 Skill 的完整流程生成，并保留作者署名「Jamee 加米」。
@@ -62,8 +62,7 @@ $literary-visual-card
 - 摘抄必须来自一段连续原文，不改写、不润色，也不拼接不相邻的句子。
 - 诗歌保留原有分行、标点和段落；散文只做视觉换行，不改变措辞。
 - 没有标题时使用无标题版式，不擅自创造一个像原作标题的标题。
-- 没有作者或出处时直接留白，不推测、不杜撰，也不默认写上 Jamee。
-- 默认不添加 `Visual: ChatGPT`、AI 标签、水印或创作者签名。
+- 没有作者或出处时直接留白，不推测、不杜撰，也不自动添加署名。
 - 只有气氛、没有视觉抓力的背景不算完成；文字看不清的卡片也不会交付。
 
 ## 输出
