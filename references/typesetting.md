@@ -45,6 +45,8 @@ Choose text colors only after inspecting the finished background; do not reuse o
 4. If contrast is weak, first change `text_color` and `secondary_text_color`; next apply the smallest useful `readability_field`. Do not use a heavy overlay to conceal a poorly composed background.
 5. If the same text block crosses incompatible values and no single ink remains clear, revise or regenerate the background so the typography zone becomes calmer and more consistent. This is mandatory before delivery.
 
+For oil-painted backgrounds, judge local brushwork as well as average brightness. Thin serif strokes can disappear against alternating impasto even when a dark ink appears acceptable over a light area. Use dark ink only when the complete text zone is both light and low-contrast; otherwise prefer warm off-white ink with the smallest useful dark readability field, or recompose the text zone.
+
 Reject clipped, low-contrast, shimmering, or texture-obscured text. Typography must be comfortably readable without zooming and must remain distinct from halftone, foliage, brushwork, projected shadows, or bright paper scars behind it.
 
 ## Content rules

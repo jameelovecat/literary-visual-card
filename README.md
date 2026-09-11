@@ -20,6 +20,35 @@ Literary Visual Card 把诗歌、书摘、金句、散文片段和原创短文�
 | [![旧梦丝网《家族列车》](examples/family-train-screenprint.jpg)](examples/family-train-screenprint.jpg) | [![梵高油画《凌晨谋杀一只蟑螂》](examples/cockroach-oil.jpg)](examples/cockroach-oil.jpg) |
 | 现代平面构图遇上粗粝丝网印刷：有限色彩、简洁线条、纸张纤维和略带荒诞的日常物件。 | 有节奏的厚涂笔触和被情绪强化的自然色彩，适合孤独、生命力与明亮的忧伤。 |
 
+## 完整系列示例
+
+同一句文字也可以分别交给四种视觉语言理解。下面两套系列保留相同的标题与原文，只改变画面媒介、构图方式和色彩关系。
+
+### 《教父》
+
+> 我要给他一个<br>
+> 无法拒绝的条件。
+
+| 时光蜡笔 | 电影诗影 |
+| --- | --- |
+| [![《教父》时光蜡笔](examples/godfather-crayon.jpg)](examples/godfather-crayon.jpg) | [![《教父》电影诗影](examples/godfather-cinematic.jpg)](examples/godfather-cinematic.jpg) |
+
+| 旧梦丝网 | 梵高油画 |
+| --- | --- |
+| [![《教父》旧梦丝网](examples/godfather-screenprint.jpg)](examples/godfather-screenprint.jpg) | [![《教父》梵高油画](examples/godfather-oil.jpg)](examples/godfather-oil.jpg) |
+
+### 《英雄本色》
+
+> 我等这个机会等了三年，不是为了证明我比别人强，而是要告诉人家我失去的东西我一定拿得回来！
+
+| 时光蜡笔 | 电影诗影 |
+| --- | --- |
+| [![《英雄本色》时光蜡笔](examples/better-tomorrow-crayon.jpg)](examples/better-tomorrow-crayon.jpg) | [![《英雄本色》电影诗影](examples/better-tomorrow-cinematic.jpg)](examples/better-tomorrow-cinematic.jpg) |
+
+| 旧梦丝网 | 梵高油画 |
+| --- | --- |
+| [![《英雄本色》旧梦丝网](examples/better-tomorrow-screenprint.jpg)](examples/better-tomorrow-screenprint.jpg) | [![《英雄本色》梵高油画](examples/better-tomorrow-oil.jpg)](examples/better-tomorrow-oil.jpg) |
+
 ## 你需要提供什么
 
 最简单的输入只有一段文字：
